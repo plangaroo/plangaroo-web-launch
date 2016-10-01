@@ -1,0 +1,288 @@
+/*
+ * Custom Plangaroo CSS ONLY for the Corporate website
+ * Plangaroo Inc
+ * Authored by Dilip Ramachandran May 27, 2016
+ */
+
+@media screen and (max-width: 600px) {
+  #map-pescadero, #map-pointreyes, #map-portland {
+  align-items: center;
+  width: 320px;
+  height: 250px;
+  }
+}
+
+@font-face { font-family: Calibri; src: url('../fonts/Calibri.ttf')
+}
+
+#navlabel {
+  color: #F7941E; 
+  font-size:16px;
+  margin-top:6px;
+}
+
+body {
+  font-family: 'Calibri',sans-serif;
+  font-weight: 300;
+}
+
+button #bookexp {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+button #bookexp:hover { 
+   color: #F7941E;
+   background-color: #FFFFFF;
+}
+
+p {
+  padding-bottom: 20px;
+  padding-left: 5%; 
+  padding-right: 5%;
+}
+
+.book {
+   position: fixed;
+   top: 40%;
+   right: 20px;
+   width: 115px;
+   height: 0px;
+   text-align:right;
+   z-index:9999;
+   margin-top:-15px;
+}
+
+.book a{
+   transform: rotate(-90deg);
+   -webkit-transform: rotate(-90deg); 
+   -moz-transform: rotate(-90deg); 
+   -o-transform: rotate(-90deg); 
+   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+   display: block; 
+   background-color: #F7941E;
+   text-align:center;
+   height: 40px; 
+   width: 230px;
+   padding: 8px 16px;
+   color: #fff; 
+   font-family: Arial, sans-serif; 
+   font-size: 17px; 
+   font-weight: bold; 
+   text-decoration: none; 
+   border-bottom: solid 1px #333; border-left: solid 1px #333; border-right: solid 1px #fff;
+   border-radius: 5px;
+}
+
+.book:hover { 
+   color: #F7941E;
+   background-color: #FFFFFF;
+}
+
+.jumbotron_home {
+  display: flex;
+  align-items: center;
+  background-image: url("../img/home.jpg");
+  background-size: cover;
+  color: #ffffff;
+  height: 450px;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.jumbotron_itinerary {
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  color: #ffffff;
+  max-height: 400px;
+  margin:0;
+  padding:0;
+}
+
+.jumbotron_dream {
+  display: flex;
+  align-items: center;
+  background-image: url("../img/dream.jpg");
+  background-size: cover;
+  color: #ffffff;
+  height: 450px;
+  text-shadow: 1px 1px 1px #000;
+}
+
+h2 {
+  font-size:32px;
+  color:#423c3c;
+}
+
+.agent {
+  max-height: 30px;
+}
+
+#clip {
+  max-height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.jumbotron_home h2, .jumbotron_dream h2 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin: 1em;
+  color: #fff;
+}
+
+#featureimage {
+  max-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#featureimage:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+#itinTitle {
+  color: #F7941E;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+#itinTitle:hover {
+  color: #808080;
+}
+
+.ecard {
+  padding-bottom: 40px;
+}
+
+.label-default {
+  background-color:#423c3c;
+  font-weight:200;
+}
+
+.label-warning {
+  background-color:#423c3c;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.btn.btn-primary {
+  border-radius: 5px;
+  border: 0px;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-color: #F7941E;
+}
+
+.btn.btn-primary:hover {
+  color: #F7941E;
+  background-color: #FFFFFF;
+}
+
+#signup {
+  font-size: 15px;
+  padding: 11px 10px 10px 10px;
+  border-radius: 5px;
+  border: 0px;
+  color: #FFFFFF;
+  text-shadow: none;
+  background-color: #F7941E;
+  text-decoration: none;
+}
+
+#signup:hover {
+  color: #F7941E;
+  background-color: #FFFFFF;
+  border: 2px solid #F7941E;
+}
+
+.homepage {
+  text-align: center;
+}
+
+.map {
+  height: 350px;
+  overflow: hidden;
+  padding-bottom: 22.25%;
+  padding-top: 10px;
+  position: relative;
+}
+
+.points {
+  padding: 10px;
+  float: left;
+}
+
+.numberCircle {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    padding: 5px;
+    line-height: 100%;
+    background: #cc3600;
+    border: 2px solid #F7941E;
+    color: #ffe338;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.legend {
+  font-weight: 500;
+  color: #808080
+}
+
+#bookbutton {
+  padding-bottom: 20px;
+}
+
+footer {
+  background-color: #423c3c;
+}
+
+footer .row p a {
+  color: #FFFFFF;
+  font-size: 1.2em;
+  margin:0.4em;
+}
+
+footer .row p{
+  color: #FFFFFF;
+}
+
+h5 #mc {
+  text-align:center;
+  width:100%;
+  color:#FFF;
+}
+
+input[type=email] {
+    width: 40%;
+    margin-left: 30%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #808080;
+    background: transparent;
+    text-align: center;
+    color: #000000;
+    margin-bottom:10px;
+    
+}
+
+input[type=submit] {
+    width: 40%;
+    margin-left: 30%;
+    background-color: #FFFFFF;
+    color: #808080;
+    text-decoration: none;
+    border: 0px;
+    border-radius: 5px;
+    
+}
+
+input[type=submit]:hover {
+    background-color: #808080;
+    color: #FFFFFF;
+}
