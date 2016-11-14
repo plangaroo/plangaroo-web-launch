@@ -232,6 +232,7 @@ h2 {
 }
 
 #bookbutton {
+  display:none;
   padding-bottom: 20px;
 }
 

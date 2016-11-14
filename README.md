@@ -20,4 +20,4 @@ This README would normally document whatever steps are necessary to get your app
 
 ### Who do I talk to? ###
 
-* Dilipram/Dilip Ramachandran/dilip@plangarooapp.com
+* Dilipram/Dilip Ramachandran/dilip@plangaroo.com
